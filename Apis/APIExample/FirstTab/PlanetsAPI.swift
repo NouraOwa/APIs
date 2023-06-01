@@ -15,25 +15,27 @@ struct Planet: Codable, Identifiable{
 }
 
 struct PlanetsAPI: View {
-    @State private var planet = Planet(name: "", temperature: 0 )
+    @State private var planet = [Planet]()
     var body: some View {
         NavigationStack {
             ScrollView{
                 
                 VStack {
                     NavigationLink(destination: SecondTabBar()) {
-                        
-                        Text(planet.name)
-                            .frame (maxWidth: .infinity)
-                            .foregroundColor (.white)
-                            .font (.title2)
-                            .padding(.all, 24)
-                            .background (.gray)
-                        .padding (.bottom, 30)}
-                    Text("\(planet.temperature)")
+                        Text("Planets and Temperature").font(.largeTitle)
+                    }
+                        ForEach (planet) { item in
+                            Text(item.name).font(.title)
+                            Text("\(item.temperature)")
+                                .frame (maxWidth: .infinity)
+                                .foregroundColor (.white)
+                                .font (.title2)
+                                .padding(.all, 24)
+                                .background (.gray)
+                            .padding (.bottom, 30)}
+                    }
                 }
             }
-        }
         .task {
             await loadData()
         }
@@ -43,7 +45,7 @@ struct PlanetsAPI: View {
         do {
             //                try! await Task.sleep(nanoseconds: 3_000_000_000)
             let name = "Neptune".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-            let url = URL(string: "https://planets-by-api-ninjas.p.rapidapi.com/v1/planets?name=Mars")!
+            let url = URL(string: "https://planets-by-api-ninjas.p.rapidapi.com/v1/planets?name=" + name!)!
             var request = URLRequest (url: url)
             request.setValue("7a426fa361mshe5a681fa501fae6p1a95b9jsn65ca0a543894", forHTTPHeaderField:
                                 "X-RapidAPI-Key")
@@ -52,7 +54,7 @@ struct PlanetsAPI: View {
             
             print(String(data: data, encoding: .utf8))
             
-            let serverPlanet = try JSONDecoder().decode(Planet.self, from: data)
+            let serverPlanet = try JSONDecoder().decode([Planet].self, from: data)
             planet = serverPlanet
             
         } catch {

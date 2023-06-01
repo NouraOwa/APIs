@@ -11,7 +11,7 @@ import SwiftUI
 struct APIExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            FifthTabBar()
+            TabBar()
         }
     }
 }

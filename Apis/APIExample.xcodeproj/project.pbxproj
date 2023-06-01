@@ -18,6 +18,21 @@
 		036A19E82A28155B00650CE4 /* FifthTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A19E72A28155B00650CE4 /* FifthTabBar.swift */; };
 		036A19EA2A2818D200650CE4 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A19E92A2818D200650CE4 /* Dictionary.swift */; };
 		036A19EC2A281A8100650CE4 /* IBAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A19EB2A281A8100650CE4 /* IBAN.swift */; };
+		036A21EC2A287B73002CD2F0 /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21EB2A287B73002CD2F0 /* Airports.swift */; };
+		036A21EE2A287CB7002CD2F0 /* RandomUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21ED2A287CB7002CD2F0 /* RandomUsers.swift */; };
+		036A21F02A287F43002CD2F0 /* SalesTax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21EF2A287F43002CD2F0 /* SalesTax.swift */; };
+		036A21F32A288064002CD2F0 /* SixthTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21F22A288064002CD2F0 /* SixthTabBar.swift */; };
+		036A21F52A288179002CD2F0 /* Inflation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21F42A288179002CD2F0 /* Inflation.swift */; };
+		036A21F72A288472002CD2F0 /* Hobbbies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21F62A288472002CD2F0 /* Hobbbies.swift */; };
+		036A21F92A288510002CD2F0 /* TextLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21F82A288510002CD2F0 /* TextLanguage.swift */; };
+		036A21FB2A2885FE002CD2F0 /* RandopPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21FA2A2885FE002CD2F0 /* RandopPassword.swift */; };
+		036A21FD2A288749002CD2F0 /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21FC2A288749002CD2F0 /* Emojis.swift */; };
+		036A22002A2888AD002CD2F0 /* SeventhTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A21FF2A2888AD002CD2F0 /* SeventhTabBar.swift */; };
+		036A22022A288932002CD2F0 /* RandomRiddles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A22012A288932002CD2F0 /* RandomRiddles.swift */; };
+		036A22042A288AF1002CD2F0 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A22032A288AF1002CD2F0 /* Stars.swift */; };
+		036A22062A288F11002CD2F0 /* DadJokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A22052A288F11002CD2F0 /* DadJokes.swift */; };
+		036A22082A289052002CD2F0 /* DNSLockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A22072A289052002CD2F0 /* DNSLockup.swift */; };
+		036A220C2A28930F002CD2F0 /* CryptoPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A220B2A28930F002CD2F0 /* CryptoPrice.swift */; };
 		036E76812A256F0600CE0463 /* APIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E76802A256F0600CE0463 /* APIExampleApp.swift */; };
 		036E76832A256F0600CE0463 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E76822A256F0600CE0463 /* ContentView.swift */; };
 		036E76852A256F0700CE0463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036E76842A256F0700CE0463 /* Assets.xcassets */; };
@@ -54,6 +69,21 @@
 		036A19E72A28155B00650CE4 /* FifthTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthTabBar.swift; sourceTree = "<group>"; };
 		036A19E92A2818D200650CE4 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		036A19EB2A281A8100650CE4 /* IBAN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBAN.swift; sourceTree = "<group>"; };
+		036A21EB2A287B73002CD2F0 /* Airports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
+		036A21ED2A287CB7002CD2F0 /* RandomUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsers.swift; sourceTree = "<group>"; };
+		036A21EF2A287F43002CD2F0 /* SalesTax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesTax.swift; sourceTree = "<group>"; };
+		036A21F22A288064002CD2F0 /* SixthTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthTabBar.swift; sourceTree = "<group>"; };
+		036A21F42A288179002CD2F0 /* Inflation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inflation.swift; sourceTree = "<group>"; };
+		036A21F62A288472002CD2F0 /* Hobbbies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobbbies.swift; sourceTree = "<group>"; };
+		036A21F82A288510002CD2F0 /* TextLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLanguage.swift; sourceTree = "<group>"; };
+		036A21FA2A2885FE002CD2F0 /* RandopPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandopPassword.swift; sourceTree = "<group>"; };
+		036A21FC2A288749002CD2F0 /* Emojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
+		036A21FF2A2888AD002CD2F0 /* SeventhTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhTabBar.swift; sourceTree = "<group>"; };
+		036A22012A288932002CD2F0 /* RandomRiddles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRiddles.swift; sourceTree = "<group>"; };
+		036A22032A288AF1002CD2F0 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
+		036A22052A288F11002CD2F0 /* DadJokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokes.swift; sourceTree = "<group>"; };
+		036A22072A289052002CD2F0 /* DNSLockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSLockup.swift; sourceTree = "<group>"; };
+		036A220B2A28930F002CD2F0 /* CryptoPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPrice.swift; sourceTree = "<group>"; };
 		036E767D2A256F0600CE0463 /* APIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036E76802A256F0600CE0463 /* APIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIExampleApp.swift; sourceTree = "<group>"; };
 		036E76822A256F0600CE0463 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,8 +152,37 @@
 				036A19E72A28155B00650CE4 /* FifthTabBar.swift */,
 				036A19E92A2818D200650CE4 /* Dictionary.swift */,
 				036A19EB2A281A8100650CE4 /* IBAN.swift */,
+				036A21EB2A287B73002CD2F0 /* Airports.swift */,
+				036A21ED2A287CB7002CD2F0 /* RandomUsers.swift */,
+				036A21EF2A287F43002CD2F0 /* SalesTax.swift */,
 			);
 			path = FifthTab;
+			sourceTree = "<group>";
+		};
+		036A21F12A288045002CD2F0 /* SixthTab */ = {
+			isa = PBXGroup;
+			children = (
+				036A21F22A288064002CD2F0 /* SixthTabBar.swift */,
+				036A21F42A288179002CD2F0 /* Inflation.swift */,
+				036A21F62A288472002CD2F0 /* Hobbbies.swift */,
+				036A21F82A288510002CD2F0 /* TextLanguage.swift */,
+				036A21FA2A2885FE002CD2F0 /* RandopPassword.swift */,
+				036A21FC2A288749002CD2F0 /* Emojis.swift */,
+			);
+			path = SixthTab;
+			sourceTree = "<group>";
+		};
+		036A21FE2A28888E002CD2F0 /* SeventhTab */ = {
+			isa = PBXGroup;
+			children = (
+				036A21FF2A2888AD002CD2F0 /* SeventhTabBar.swift */,
+				036A22012A288932002CD2F0 /* RandomRiddles.swift */,
+				036A22032A288AF1002CD2F0 /* Stars.swift */,
+				036A22052A288F11002CD2F0 /* DadJokes.swift */,
+				036A22072A289052002CD2F0 /* DNSLockup.swift */,
+				036A220B2A28930F002CD2F0 /* CryptoPrice.swift */,
+			);
+			path = SeventhTab;
 			sourceTree = "<group>";
 		};
 		036E76742A256F0600CE0463 = {
@@ -145,16 +204,18 @@
 		036E767F2A256F0600CE0463 /* APIExample */ = {
 			isa = PBXGroup;
 			children = (
+				036A21FE2A28888E002CD2F0 /* SeventhTab */,
+				036A21F12A288045002CD2F0 /* SixthTab */,
 				036A19E62A28153700650CE4 /* FifthTab */,
 				036A19D52A27C68400650CE4 /* FourthTab */,
 				03BFCD292A26F71100B471C4 /* ThirdTab */,
 				03BFCD162A26C29A00B471C4 /* SecondTab */,
 				0342505D2A26C0C000C0FBBD /* FirstTab */,
 				036E76802A256F0600CE0463 /* APIExampleApp.swift */,
+				036A19DA2A28032B00650CE4 /* StatusExtension.swift */,
 				036E76822A256F0600CE0463 /* ContentView.swift */,
 				036E76842A256F0700CE0463 /* Assets.xcassets */,
 				036E76862A256F0700CE0463 /* Preview Content */,
-				036A19DA2A28032B00650CE4 /* StatusExtension.swift */,
 			);
 			path = APIExample;
 			sourceTree = "<group>";
@@ -264,7 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036A21F92A288510002CD2F0 /* TextLanguage.swift in Sources */,
+				036A21F02A287F43002CD2F0 /* SalesTax.swift in Sources */,
 				036E768F2A256FC900CE0463 /* TabBar.swift in Sources */,
+				036A21F52A288179002CD2F0 /* Inflation.swift in Sources */,
 				036A19DB2A28032B00650CE4 /* StatusExtension.swift in Sources */,
 				036A19D72A27C6D600650CE4 /* FourthTabBar.swift in Sources */,
 				036A19EC2A281A8100650CE4 /* IBAN.swift in Sources */,
@@ -281,20 +345,32 @@
 				03A7F2522A262251001849F8 /* RandomWord.swift in Sources */,
 				036E76832A256F0600CE0463 /* ContentView.swift in Sources */,
 				03697FA72A25C0BA004F81C5 /* Jokes.swift in Sources */,
+				036A22042A288AF1002CD2F0 /* Stars.swift in Sources */,
+				036A22082A289052002CD2F0 /* DNSLockup.swift in Sources */,
 				03BFCD1A2A26C5F600B471C4 /* CountriesFlags.swift in Sources */,
+				036A21EE2A287CB7002CD2F0 /* RandomUsers.swift in Sources */,
+				036A21FD2A288749002CD2F0 /* Emojis.swift in Sources */,
 				036E76812A256F0600CE0463 /* APIExampleApp.swift in Sources */,
 				03BFCD362A2702D000B471C4 /* RandomJokes.swift in Sources */,
+				036A22062A288F11002CD2F0 /* DadJokes.swift in Sources */,
 				03BFCD222A26D71000B471C4 /* PlanetList.swift in Sources */,
 				036A19DF2A280B5800650CE4 /* Dessert.swift in Sources */,
+				036A22002A2888AD002CD2F0 /* SeventhTabBar.swift in Sources */,
 				036A19E52A28135900650CE4 /* Counter.swift in Sources */,
 				036A19DD2A280A8100650CE4 /* Pizza.swift in Sources */,
 				03BFCD342A27020C00B471C4 /* Facts.swift in Sources */,
+				036A220C2A28930F002CD2F0 /* CryptoPrice.swift in Sources */,
+				036A21F72A288472002CD2F0 /* Hobbbies.swift in Sources */,
+				036A22022A288932002CD2F0 /* RandomRiddles.swift in Sources */,
+				036A21FB2A2885FE002CD2F0 /* RandopPassword.swift in Sources */,
 				03BFCD202A26D46900B471C4 /* Reciepe.swift in Sources */,
 				03BFCD322A26FDE400B471C4 /* Quotes.swift in Sources */,
 				03BFCD182A26C2C300B471C4 /* SecondTabBar.swift in Sources */,
 				036A19E82A28155B00650CE4 /* FifthTabBar.swift in Sources */,
+				036A21EC2A287B73002CD2F0 /* Airports.swift in Sources */,
 				03A7F2542A2623A3001849F8 /* PlanetsAPI.swift in Sources */,
 				03BFCD382A2703E300B471C4 /* RandomYesNo.swift in Sources */,
+				036A21F32A288064002CD2F0 /* SixthTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

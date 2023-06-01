@@ -1,5 +1,5 @@
 //
-//  FifthTabBar.swift
+//  SixthTabBar.swift
 //  APIExample
 //
 //  Created by Noura Alowayid on 12/11/1444 AH.
@@ -7,43 +7,42 @@
 
 import SwiftUI
 
-struct FifthTabBar: View {
+struct SixthTabBar: View {
             @State var selectedTab = 0
-            
             var body: some View {
                 NavigationStack{
                     VStack {
                         TabView {
                             // First tab
-                            Dictionary()
+                            Inflation()
                                 .tabItem {
                                     Image(systemName: "house")
                                     Text("Home")
                                 }
                             
                             // Second tab
-                           IBAN()
+                           Emojis()
                                 .tabItem {
                                     Image(systemName: "rectangle.fill.on.rectangle.fill")
                                     Text("Feed")
                                 }
                             
                             // Third tab
-                            Airports()
+                            TextLanguage()
                                 .tabItem {
                                     Image(systemName: "person")
                                     Text("Profile")
                                 }
                             
                             // Fourth tab
-                            RandomUsers()
+                            Hobbbies()
                                 .tabItem {
                                     Image(systemName: "flag")
                                     Text("Profile")
                                     
                                 }
                             // fifth tab
-                            SalesTax()
+                            RandopPassword()
                                 .tabItem {
                                     Image(systemName: "timer")
                                     Text("Profile")
@@ -55,8 +54,8 @@ struct FifthTabBar: View {
             }
         }
 
-struct FifthTabBar_Previews: PreviewProvider {
+struct SixthTabBar_Previews: PreviewProvider {
     static var previews: some View {
-        FifthTabBar()
+        SixthTabBar()
     }
 }

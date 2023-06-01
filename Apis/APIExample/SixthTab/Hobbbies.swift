@@ -1,26 +1,27 @@
 //
-//  IBAN.swift
+//  Hobbbies.swift
 //  APIExample
 //
 //  Created by Noura Alowayid on 12/11/1444 AH.
 //
 
 import SwiftUI
-struct Iban: Codable {
-    let iban, bank_name, account_number, bank_code: String
+struct Hobby: Codable {
+    let hobby: String
+    let link: String
+    let category: String
 }
-struct IBAN: View {
-    @State private var bank = Iban(iban: "",bank_name: "", account_number: "", bank_code: "")
+struct Hobbbies: View {
+    @State private var hobby = Hobby(hobby: "", link: "", category: "")
     var body: some View {
         ScrollView{
             VStack {
-                Text("Account Information").font(.largeTitle).bold()
+                Text("Random Hobby").font(.largeTitle).bold()
                 //ForEach (bank) { item in
                     VStack {
-                        Text(bank.iban).font(.title).bold()
-                        Text(bank.bank_name)
-                        Text(bank.account_number)
-                        Text(bank.bank_code)
+                        Text(hobby.hobby).font(.title).bold()
+                        Text(hobby.link)
+                        Text(hobby.category)
                             .frame (maxWidth: .infinity)
                             .foregroundColor (.black)
                             .font (.title2)
@@ -37,16 +38,16 @@ struct IBAN: View {
     }
     func loadData( ) async {
         do {
-            let iban = "DE16200700000532013000".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-            let url = URL(string: "https://api.api-ninjas.com/v1/iban?iban=" + iban!)!
+            let category = "general".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+            let url = URL(string: "https://api.api-ninjas.com/v1/hobbies?category="+category!)!
             var request = URLRequest(url: url)
             request.setValue("r5KH4fSoLgFaSwo69uUsxw==FDkbnI4CgVWATJp4", forHTTPHeaderField: "X-Api-Key")
             
             let (data, response) = try await URLSession.shared.data(for: request)
             let isSuccessful = isSuccessful(response: response as! HTTPURLResponse)
             print(String(data: data, encoding: .utf8))
-            let serverNews = try JSONDecoder().decode(Iban.self, from: data)
-            bank = serverNews
+            let serverNews = try JSONDecoder().decode(Hobby.self, from: data)
+            hobby = serverNews
             
         } catch {
             print("error \(error)")
@@ -55,9 +56,8 @@ struct IBAN: View {
     
 }
 
-
-struct IBAN_Previews: PreviewProvider {
+struct Hobbbies_Previews: PreviewProvider {
     static var previews: some View {
-        IBAN()
+        Hobbbies()
     }
 }
